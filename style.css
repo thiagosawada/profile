@@ -1,0 +1,112 @@
+/* Here goes your CSS */
+/* Here goes your CSS */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #EBEBEB;
+  color: #7d7d7d;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.6em  ;
+}
+
+#profile-image {
+  width: 100px;
+  border-radius: 50%;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: 300;
+  color: rgb(100, 100, 100)
+}
+
+#title {
+  color: #91C499;
+  font-size: 22px;
+  margin-top: 10px;
+}
+
+.card-white {
+  background-color: white;
+  width: 450px;
+  padding: 30px;
+  margin: 20px auto;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.description {
+  margin-bottom: 25px;
+  margin-top: 10px;
+}
+
+.btn-blue {
+  background-color: #91C499;
+  padding: 10px;
+  border-radius: 3px;
+  color: white;
+  opacity: 0.8;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline li i {
+  font-size: 25px;
+}
+
+a {
+  text-decoration: none;
+  color: #7d7d7d;
+}
+
+a:hover {
+  opacity: 1;
+}
+
+.table-header {
+  font-size: 20px;
+  font-weight: normal;
+  margin-bottom: 15px;
+}
+
+table img {
+  width: 200px;
+}
+
+table h3 {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+table tr {
+  vertical-align: top;
+
+}
+
+table td {
+  padding: 5px;
+  border-bottom: 2px solid #EBEBEB;
+}
+
+table p {
+  margin-top: 0;
+  text-align: justify;
+}
+
+.footer p {
+  margin: 5px;
+}
